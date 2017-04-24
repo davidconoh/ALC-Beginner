@@ -7,6 +7,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Locale;
+import java.text.NumberFormat;
+
 public class Coffee extends AppCompatActivity {
 
     int qty = (0);
@@ -59,7 +62,7 @@ public class Coffee extends AppCompatActivity {
          * The id is referring to the 'pay' button in the XML file.
          */
 
-        Button payButton = (Button) findViewById(R.id.pay_button);
+        Button orderButton = (Button) findViewById(R.id.order_button);
 
         /**
          * Set the add and minus buttons to perform the following functions on the screen:
@@ -67,11 +70,20 @@ public class Coffee extends AppCompatActivity {
          * 2. Change the display result of the text view to 4
          */
 
-        payButton.setOnClickListener(new View.OnClickListener() {
+        orderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Coffee.this, "Thank You For Your Patronage", Toast.LENGTH_SHORT).show();
                 pay(10);
+            }
+        });
+
+        orderButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int basePrice = qty * 100;
+                TextView myOrder = (TextView) findViewById(R.id.txt_pay);
+                myOrder.setText(NumberFormat.getCurrencyInstance(new Locale("en", "NG")).format(basePrice));
             }
         });
 
