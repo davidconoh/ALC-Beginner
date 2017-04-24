@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative_child1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:src="@drawable/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/ghetto_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ghetto Images"
+            android:textAllCaps="true"
+            android:textStyle="bold|normal"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#795548"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="8dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/motto_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Great Pictures. Forever Memories."
+            android:textAllCaps="true"
+            android:textStyle="bold|normal"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#795548"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="8dp"
+            android:layout_below="@id/ghetto_tv"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We are an Internet based, disruptive media agency focused on democratizing image production by hiring the most competent freelance photographers in your city to do the job. No matter the time or place, we are only one call away!"
+            android:textStyle="bold|normal"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textAlignment="center"
+            android:textColor="#795548"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/mail_img"
+            android:src="@drawable/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/mail_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello@ghettoimages.io"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textAlignment="center"
+            android:textColor="#795548"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/mail_img"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/phone_img"
+            android:src="@drawable/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_above="@id/mail_img"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/phone_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+234 803 000 1234"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textAlignment="center"
+            android:textColor="#795548"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_above="@id/mail_img"
+            android:layout_toRightOf="@id/phone_img"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/location_img"
+            android:src="@drawable/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_above="@id/phone_img"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/location_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GhettoHub Aba, Nigeria"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textAlignment="center"
+            android:textColor="#795548"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_above="@id/phone_tv"
+            android:layout_toRightOf="@id/location_img"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/website_img"
+            android:src="@drawable/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/mail_img"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/website_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ghettoimages.io"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textAlignment="center"
+            android:textColor="#795548"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@id/mail_img"
+            android:layout_toRightOf="@id/website_img"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/office_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our office is always open from 09:00 to 17:00 hours every workday. Visit us today!"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textAlignment="center"
+            android:textColor="#795548"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

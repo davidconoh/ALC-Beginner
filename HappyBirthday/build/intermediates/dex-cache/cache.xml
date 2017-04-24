@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/da38e9b31cc693f5d86118e346884786ccdfa837/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_2f49ff57d072955a9cd74e6f0387637f12c8bfe2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/b43f020861460796a45622dc3d8a349ff68de107/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_15b3d754c6011f84084d647d70e66ad6fe4ab1ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/b43f020861460796a45622dc3d8a349ff68de107/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_20ef0b5b938f223b95ad45b1940667198b02ca04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/61f3c40894f4ab8ec059c7e0c0f4dbec09edced7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_8ed853afaa5d50ee0149929186d5b71a651abc97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/1cce89b48fedcdd5bd14fb19f767c9d4d4b06a82/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_55446a2bb5bb96995b0573eb36e666eff5fc7abe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/4261814d82b1bec63c2bb5c05584631438ee942a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_f16c2c4acd1da8b51511879a8bead70771aaa0f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_47fba3c9c2268f60f14fa90656960d354507729c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/667ff1fd119f571021548767089cd3d6b5471632/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_88835d11276bf4a3d6c37e3db4d3f987170a3018.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/667ff1fd119f571021548767089cd3d6b5471632/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_82dda25554e8612874aeedd3076f96be945718b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/3b2cfd3e761588e003830a5b3a4b14ee5d4eb8d2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_25576ee6ea785ceb372357a584db23d7172ed311.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/782c829a5b8834d24104f6be5befc95e39de1778/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_f7084d1a58b869277c5b18db8372a62cf29a068b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/4f083f6271ea441337aec364ad3ad4507649799f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_7f1c11b1810f7b93b6c23217dcc0c44668b3965d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_f9782d597d8c19b06e2606c6924059ab82429e6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/da38e9b31cc693f5d86118e346884786ccdfa837/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_23f2d2ea8d4947fa9c0eef55cc10c1c31745f812.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/1cce89b48fedcdd5bd14fb19f767c9d4d4b06a82/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_9e2d04ea2f60022ee22359986390995ffeea8ea0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/3b2cfd3e761588e003830a5b3a4b14ee5d4eb8d2/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_5de987e45a4b0de31dd67fb714d3168096b8b24f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/davidconoh/.android/build-cache/e210e94613b1788ccc180aabc97950e19214c98f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/davidconoh/AndroidStudioProjects/HappyBirthday/app/build/intermediates/pre-dexed/debug/classes_f1ba1ba6512bf669e65e827d220d925934137f5c.jar" />
+    </item>
+
+</items>

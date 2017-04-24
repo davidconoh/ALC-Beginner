@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:id="@+id/birthday_img"
+        android:src="@drawable/birthday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/gravity_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday, KC"
+        android:fontFamily="san-serif-light"
+        android:textStyle="italic"
+        android:textSize="36sp"
+        android:textColor="#ffffff"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/david_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="From David"
+        android:fontFamily="san-serif-light"
+        android:textStyle="italic"
+        android:textSize="36sp"
+        android:textColor="#ffffff"
+        android:padding="8dp"/>
+
+</RelativeLayout>
